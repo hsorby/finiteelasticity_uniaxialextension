@@ -1,4 +1,4 @@
-penCMISS (Open Continuum Mechanics, Imaging, Signal processing and System identification)
+# OpenCMISS (Open Continuum Mechanics, Imaging, Signal processing and System identification)
 # is a mathematical modelling environment that enables the application of finite element
 # analysis techniques to a variety of complex bioengineering problems.
 # 
