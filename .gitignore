@@ -1,1 +1,4 @@
 *.ex*
+
+# Qt Creator project files
+CMakeLists.txt.user
