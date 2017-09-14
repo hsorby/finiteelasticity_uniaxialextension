@@ -23,5 +23,3 @@ target_link_libraries(uniaxial_extension_f PRIVATE opencmisslibs mpi)
 # Add an install target to place the executable in the install tree.
 install(TARGETS uniaxial_extension_f 
     DESTINATION bin)
-
-
