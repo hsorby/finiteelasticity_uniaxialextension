@@ -1,14 +1,6 @@
 
 # Add example executable
-add_executable(uniaxial_extension_f uniaxial_extension.f90)
-
-# Turn on Fortran preprocessing (#include directives)
-if (MSVC)
-    set(PROC_OPT "/fpp")
-else()
-    set(PROC_OPT "-cpp")
-endif()
-target_compile_options(uniaxial_extension_f PRIVATE ${PROC_OPT})
+add_executable(uniaxial_extension_f uniaxial_extension.F90)
 
 # Link to opencmiss
 # -----------------
