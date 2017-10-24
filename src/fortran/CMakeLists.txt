@@ -10,7 +10,7 @@ add_executable(uniaxial_extension_f uniaxial_extension.F90)
 # Alternatively, you can also directly invoke 'find_package(Iron <IRON_VERSION>)' to explicitly
 # require that version.  If you do this you will also need to change the target link library from
 # 'opencmisslibs' to 'iron'. 
-target_link_libraries(uniaxial_extension_f PRIVATE opencmisslibs mpi)
+target_link_libraries(uniaxial_extension_f PRIVATE opencmisslibs)
 
 # Add an install target to place the executable in the install tree.
 install(TARGETS uniaxial_extension_f 
